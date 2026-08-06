@@ -1,0 +1,10 @@
+region,g_co2_per_kwh,source
+australia-southeast1,640,synthetic
+southamerica-east1,520,synthetic
+asia-south1,708,synthetic
+us-east1,410,synthetic
+me-central1,550,synthetic
+us-central1,386,synthetic
+europe-north1,180,synthetic
+europe-west1,280,synthetic
+asia-northeast1,470,synthetic

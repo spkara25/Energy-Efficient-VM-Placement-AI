@@ -1,0 +1,11 @@
+service,unit,kwh_per_unit,notes
+gke,node_hours,0.6,Slightly higher per node-hour for k8s control/overhead
+cloud_storage,gb_months,0.001,Storage energy per GB-month including cooling
+bigquery,tb_processed,2,Rough kWh per TB scanned (IO + CPU in DC)
+genai_api,tokens,0.00002,Per token inference energy (very rough)
+cloud_functions,invocations,0.0001,Tiny per invocation compute
+cloud_run,container_hours,0.4,"Serverless containers, somewhat lower than VMs"
+pubsub,messages,0.00001,Tiny per message brokered
+vertex_ai,training_hours,2.5,Training is energy-heavy (varies widely with HW)
+cloud_loadbalancer,requests,0.000001,Per request edge+LB processing
+compute_engine,vm_hours,0.5,"Assume ~0.5 kWh per VM-hour (shared host power, avg load)"
