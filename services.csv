@@ -1,0 +1,11 @@
+service,unit,description
+compute_engine,vm_hours,Virtual machine usage in hours
+gke,node_hours,Kubernetes Engine node usage
+cloud_loadbalancer,requests,Requests served by load balancer
+bigquery,tb_processed,Data scanned by queries (terabytes)
+genai_api,tokens,Generative AI token usage
+pubsub,messages,Pub/Sub messages processed
+cloud_storage,gb_months,Storage consumption in GB-months
+vertex_ai,training_hours,ML model training compute time
+cloud_functions,invocations,Number of serverless function calls
+cloud_run,container_hours,Hours of containerized workloads
