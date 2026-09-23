@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-def load_data(data_dir="data"):
+def load_data(data_dir="Datasets"):
     print("Ingesting datasets into memory...")
     data_dir = Path(data_dir)
     
@@ -36,3 +36,4 @@ def load_data(data_dir="data"):
 if __name__ == "__main__":
     data = load_data()
     print(f"Loaded {len(data)} distinct datasets successfully.")
+    
